@@ -29,3 +29,7 @@ storjCaplinked.downloadWatermarkedFile(downloadId, function(result, error) {
 });
 
 ```
+
+#### Example file:
+
+![example watermarked file](watermarked-file.png)
