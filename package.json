@@ -1,0 +1,32 @@
+{
+  "name": "storj-document-watermarker",
+  "author": "Caplinked <development@caplinked.com>",
+  "version": "0.1.0",
+  "description": "Apply custom watermarks to files stored in Storj buckets",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caplinked/storj-document-watermarker"
+  },
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Arons Lee",
+      "email": "arons@caplinked.com"
+    }
+  ],
+  "keywords": [
+    "caplinked",
+    "storj",
+    "watermark",
+    "pdf",
+    "document"
+  ],
+  "dependencies": {
+    "caplinked-api-node": "^1.1.1",
+    "dotenv": "^4.0.0",
+    "request": "^2.82.0",
+    "request-promise": "^4.2.1",
+    "storj": "git+https://github.com/storj/storj.js.git"
+  }
+}
